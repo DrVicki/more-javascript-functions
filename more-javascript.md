@@ -1,4 +1,4 @@
-## Refresher:
+### Refresher:
 
 A function is a named and parameterized block of JavaScript code you define once, and can then invoke over and over again. 
     
