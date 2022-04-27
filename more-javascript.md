@@ -1,6 +1,8 @@
-A function is a named and parameterized block of JavaScript code you define once, and can then invoke over and over again. 
+## Refresher:
 
-Here are some simple examples:
+A function is a named and parameterized block of JavaScript code you define once, and can then invoke over and over again. 
+    
+   - Here are some simple examples:
 
 ```
 // Functions are parameterized blocks of JavaScript code that we can invoke.
@@ -18,6 +20,8 @@ square(plus1(y))           // => 16: invoke two functions in one expression
 ```
 
 
+### Arrow function
+
 In ES6 and later, there is a shorthand syntax for defining functions. This concise syntax uses ```=>``` to separate the argument list from the function body, so functions defined this way are known as **arrow functions**. Arrow functions are most commonly used when you want to pass an unnamed function as an argument to another function. The preceding code looks like this when rewritten to use arrow functions:
 
 ```
@@ -26,6 +30,8 @@ const square = x => x * x;  // The input x maps to the output x * x
 plus1(y)                    // => 4: function invocation is the same
 square(plus1(y))            // => 16
 ```
+
+### Methods
 
 When we use functions with objects, we get methods:
 
@@ -96,8 +102,12 @@ factorial2(5)              // => 120: 1*2*3*4*5
 
 ## Functions as Values
 
-The most important features of functions are they can be defined and invoked. Function definition and invocation are syntactic features of JavaScript and of most other programming languages. 
-  - In JavaScript, however, functions are not only syntax but also values, which means they can be assigned to variables, stored in the properties of objects or the elements of arrays, passed as arguments to functions, and so on.
+The most important features of functions are they can be defined and invoked. 
+    - Function definition and invocation are syntactic features of JavaScript and of most other programming languages. 
+In JavaScript, however, functions are not only syntax but also values, which means they can be; 
+    - assigned to variables, 
+    - stored in the properties of objects or the elements of arrays, 
+    - passed as arguments to functions, and so on.
 
 To understand how functions can be JavaScript data as well as JavaScript syntax, consider this function definition:
 
